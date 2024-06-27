@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module for Pascal's triangle."""
 
+
 def pascal_triangle(n):
     """Generates Pascal's triangle up to the nth row."""
     if not isinstance(n, int) or n <= 0:
