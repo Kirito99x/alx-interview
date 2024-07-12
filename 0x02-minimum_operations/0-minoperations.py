@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+'''minimum number of operations needed to result in n H characters.'''
+
+
 def minOperations(n):
     '''find the minimum numbers of operations needed to result in n H characters.'''
     if not isinstance(n, int):
